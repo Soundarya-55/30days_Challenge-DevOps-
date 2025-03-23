@@ -90,7 +90,7 @@
 🛠️ Description: Initializes and updates submodules recursively.
 
 
-Here are some essential commands for managing an AWS EC2 instance running Ubuntu:
+# Here are some essential commands for managing an AWS EC2 instance running Ubuntu:
 
 1. Update & Upgrade Packages
 sudo apt update          # Update package lists
