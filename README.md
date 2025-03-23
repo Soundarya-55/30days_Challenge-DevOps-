@@ -1,4 +1,3 @@
-# 30days_Challenge-DevOps
 # 30-Day DevOps Challenge
 
 Welcome to the **30-Day DevOps Challenge**! This challenge is designed to help you learn and implement key DevOps concepts, tools, and best practices over the course of 30 days.
