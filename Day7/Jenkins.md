@@ -19,22 +19,22 @@ Supports most environments
 Open-source
 Easy distribution
 
-# Plugins
+### Plugins
 The availability of thousands of plugins allows for a large degree of customizability. The developers have the opportunity to integrate these plugins with development and testing tools, and tailor the architecture to serve a lot of possibilities.
 
-# Easy to Set Up
+### Easy to Set Up
 Jenkins has executable packages that are quick to install on Windows, Mac and Unix operating systems. It’s just a self-contained Java program that you can set up in ten minutes.
 
-# Supports Most Environments
+### Supports Most Environments
 Jenkins supports most environments, including cloud-based architecture. This makes it handy as teams begin to use different environments. It also supports all major cloud platforms, including Amazon, Azure, Google, and IBM Cloud.
 
-# Open-source
+### Open-source
 Jenkins is open-source and free to use. It has an enthusiastic developer community that frequently holds in-person and online meetings.
 
-# Easy Distribution
+### Easy Distribution
 It’s easy to distribute Jenkins across work machines, which makes building, testing, and deployment faster.
 
-# Security
+### Security
 Jenkins offers security tools to help organizations keep their data and systems safe, right out-of-the-box. This includes features like role-based access control, session management, and encryption. Additionally, Jenkins integrates with several security-related plugins to further enhance its security capabilities.
 
 ## How Jenkins works?
