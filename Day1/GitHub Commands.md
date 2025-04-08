@@ -1,42 +1,42 @@
 Here are some essential commands for managing an AWS EC2 instance running Ubuntu:
 
-Update & Upgrade Packages
-sudo apt update # Update package lists
-sudo apt upgrade -y # Upgrade installed packages
+1. Update & Upgrade Packages
+sudo apt update          # Update package lists
+sudo apt upgrade -y      # Upgrade installed packages
 
-Install Software
-sudo apt install -y # Install a package (e.g., Apache, Nginx)
+2. Install Software
+sudo apt install <package-name> -y   # Install a package (e.g., Apache, Nginx)
 
-Check Installed Package
-dpkg -l | grep # List installed packages
+3. Check Installed Package
+dpkg -l | grep <package-name>   # List installed packages
 
-Remove or Uninstall a Package
-sudo apt remove -y # Remove a package (without config files)
-sudo apt purge -y # Remove a package (with config files)
-sudo apt autoremove -y # Remove unused dependencies
+4. Remove or Uninstall a Package
+sudo apt remove <package-name> -y     # Remove a package (without config files)
+sudo apt purge <package-name> -y      # Remove a package (with config files)
+sudo apt autoremove -y                # Remove unused dependencies
 
-Start, Stop & Restart Services
-sudo systemctl start # Start a service
-sudo systemctl stop # Stop a service
-sudo systemctl restart # Restart a service
-sudo systemctl status # Check service status
+5. Start, Stop & Restart Services
+sudo systemctl start <service-name>   # Start a service
+sudo systemctl stop <service-name>    # Stop a service
+sudo systemctl restart <service-name> # Restart a service
+sudo systemctl status <service-name>  # Check service status
 
-Enable/Disable Services on Boot
-sudo systemctl enable # Enable service at startup
-sudo systemctl disable # Disable service at startup
+6. Enable/Disable Services on Boot
+sudo systemctl enable <service-name>  # Enable service at startup
+sudo systemctl disable <service-name> # Disable service at startup
 
-Manage Files and Directories
-ls -l # List files in directory
-mkdir # Create a directory
-rm -r # Delete a directory
-rm # Delete a file
+7. Manage Files and Directories
+ls -l                   # List files in directory
+mkdir <dir-name>        # Create a directory
+rm -r <dir-name>        # Delete a directory
+rm <file-name>          # Delete a file
 
-Monitor System & Resources
-top # View system processes
-htop # Interactive process viewer (install with sudo apt install htop)
-df -h # Check disk space
-free -m # Check memory usage
+8. Monitor System & Resources
+top            # View system processes
+htop           # Interactive process viewer (install with `sudo apt install htop`)
+df -h          # Check disk space
+free -m        # Check memory usage
 
-Manage EC2 Instance (Start, Stop, Restart)
-sudo shutdown -h now # Shutdown instance
-sudo reboot # Reboot instance
+9. Manage EC2 Instance (Start, Stop, Restart)
+sudo shutdown -h now      # Shutdown instance
+sudo reboot               # Reboot instance
