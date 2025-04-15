@@ -11,6 +11,8 @@ Networking fundamentals are crucial for DevOps engineers because they form the f
 The **OSI (Open Systems Interconnection)** model is a conceptual framework that standardizes the functions of a networking system into seven layers. These layers help isolate issues and understand how data flows between applications and hardware. 
 
 However, while the OSI model is valuable for theoretical understanding, in practice, the **TCP/IP model** is more commonly used. It consolidates the seven layers into **four practical layers**, making it easier to implement and troubleshoot.
+![image](https://github.com/user-attachments/assets/81c9ebce-a1f0-4c2a-875a-aaa923d83691)
+
 
 📚 *Learning Resource*: [GeeksforGeeks – OSI Model](https://www.geeksforgeeks.org/open-systems-interconnectionmodel-osi/)
 
@@ -27,6 +29,8 @@ However, while the OSI model is valuable for theoretical understanding, in pract
 - **UDP (User Datagram Protocol)**  
   - *Connectionless*, offers faster data transmission without guaranteeing delivery.  
   - Ideal for real-time applications like gaming or video streaming.
+  - ![Uploading image.png…]()
+
 
 - **IP (Internet Protocol)**  
   - Responsible for addressing and routing packets to their destination.  
