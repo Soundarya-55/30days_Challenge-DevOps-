@@ -1,4 +1,4 @@
-## ** 🔍Splunk **
+## **🔍Splunk**
 
 **Splunk** is a powerful platform designed for searching, monitoring, and analyzing machine-generated data. It can handle data from various sources, including logs, events, metrics, and more. Splunk provides real-time insights into operational data, enabling organizations to gain a comprehensive understanding of their systems.
 
