@@ -76,7 +76,4 @@
 index=web_logs status=500 | stats count by host, uri_path
 ```
 
-> Finds how many `500 errors` occurred per host and URI path.
-
----
 
